@@ -1,0 +1,58 @@
+
+body{
+    background-color: rgb(190, 230, 173);
+    color : black;
+    font-family :'Times New Roman', Times, serif
+}
+
+h1{
+    font-style: italic;
+    text-align: center;
+
+}
+
+.img1{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif
+}
+
+form{
+    background-color: rgb(190, 230, 173);
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    table-layout: auto;
+    
+}
+
+table {
+    border-collapse: collapse;
+    font-size: medium;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+td:first-child,
+th:first-child {
+    width: 120px;      
+    white-space: nowrap; 
+}
+
