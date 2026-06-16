@@ -7,8 +7,8 @@
 
 body{
     padding: 20px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    background: linear-gradient(to right, rgb(236, 165, 150), rgb(131, 255, 255), rgb(154, 255, 154));
+     color: rgb(0, 0, 0);
 }
 
 nav{
@@ -25,6 +25,13 @@ nav a{
     text-decoration: none;
     padding: 10px;
 }
+nav a:hover{
+        transition:0.5s;
+        transform: scale(1.05);
+        background-color: rgb(255, 165, 165);
+        color:aliceblue;
+        opacity: 0px;
+    }
 
 h1{
     font-size: 50px;
@@ -45,11 +52,11 @@ img{
     width: 150px;
     max-width: 400px;
     border-radius: 20px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(223, 89, 89);
 }
 
 video{
-    width: 50%;
+    width: 20%;
     padding: 20px;
     background-color: rgb(88, 181, 224);
 }
@@ -58,6 +65,7 @@ table{
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
+    background-color: aliceblue;
 }
 
 th,
@@ -86,12 +94,13 @@ button{
 
 button:hover{
     transform: scale(1.05);
+    background-color: chartreuse;
 }
 
 .container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    gap: 20px;
 }
 
 .box{
@@ -120,7 +129,7 @@ button:hover{
     }
 
     video{
-        width: 100%;
+        width: 50%;
     }
 
     .container{
